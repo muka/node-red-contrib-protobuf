@@ -1,8 +1,8 @@
 {
-    "name"         : "node-red-contrib-protocolbuffersnode",
+    "name"         : "node-red-protobufnode",
     "version"      : "0.0.1",
     "description"  : "Encoder and Decoder nodes for Protocol Buffers",
-    "author"       : "Alex J Lennon <ajlennon@dynamicdevices.co.uk>",
+    "author"       : "Zdzislaw Krajewski <zdzichucb@gmail.com>",
     "dependencies": {
       "protobuf.js": "*"
     },
