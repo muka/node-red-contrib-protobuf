@@ -1,3 +1,14 @@
+# About
+
+I've forked this repository in order to make original one working with
+latest version of protobufjs.
+I am new to JS, so that feel free to review my code and correct if you think
+thad shings could be done in better way.
+I've make file reorganisation to be able to `git clone` it to `node_modules`
+directory easily. 
+
+#Original Readme
+
 Encoder and Decoder nodes for Protocol Buffers. These wrap protobuf.js
 
 Typical example flows would be
@@ -39,7 +50,7 @@ Injector JSON parameter
 
 { "apn" : "MyAPN", "username" : "MyUserName", "password" : "MyPassword" }
 
-Node configuration would then contain the path to the .proto file 
+Node configuration would then contain the path to the .proto file
 and the message type would be ApnConfig.
 
 The output to the MQTT output node will contain a byte array payload
