@@ -18,10 +18,12 @@ module.exports = function(RED) {
 	node.messagetype = config.messagetype;
 
 	// Create protocol buffers builder for encode
-        var ProtoBuf = require("protobufjs");
+    var ProtoBuf = require("protobufjs");
 	// Create the configured message type
+
         // var builder = ProtoBuf.loadProtoFile(node.protofile),
 		// Message = builder.build(node.messagetype);
+
   var root = ProtoBuf.loadSync(node.protofile)
   if (root == null){
     node.error("Unable to load proto file");

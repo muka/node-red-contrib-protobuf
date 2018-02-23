@@ -1,13 +1,16 @@
 {
-    "name"         : "node-red-protobufnode",
-    "version"      : "0.0.1",
-    "description"  : "Encoder and Decoder nodes for Protocol Buffers",
-    "author"       : "Zdzislaw Krajewski <zdzichucb@gmail.com>",
+    "name": "node-red-protobufnode",
+    "version": "0.0.1",
+    "description": "Encoder and Decoder nodes for Protocol Buffers",
+    "author": "Zdzislaw Krajewski <zdzichucb@gmail.com>",
     "dependencies": {
-      "protobuf.js": "*"
+        "protobufjs": "^6.8.5"
     },
-    "keywords": [ "node-red", "protobuf" ],
-    "node-red"     : {
+    "keywords": [
+        "node-red",
+        "protobuf"
+    ],
+    "node-red": {
         "nodes": {
             "encode-protobuf": "protobuf/encode-protobuf.js",
             "decode-protobuf": "protobuf/decode-protobuf.js"
